@@ -3,7 +3,8 @@
 ### [Project Page](https://georgecazenavette.github.io/glad) | [Paper](https://georgecazenavette.github.io/glad)
 <br>
 
-![Teaser image](resources/grid.png)
+![grid](https://user-images.githubusercontent.com/18726777/235812493-5c5d4389-2208-409b-860a-9885db2a7592.png)
+
 
 This repo contains code for training expert trajectories and distilling synthetic data from our GLaD paper (CVPR 2023). Please see our [project page](https://georgecazenavette.github.io/glad) for more results.
 
