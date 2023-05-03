@@ -378,7 +378,7 @@ if __name__ == '__main__':
     parser.add_argument('--batch_syn', type=int, default=None, help='batch size for syn data')
     parser.add_argument('--buffer_path', type=str, default='./buffers', help='buffer path')
     parser.add_argument('--load_all', action='store_true')
-    parser.add_argument('--max_start_epoch', type=int, default=25)
+    parser.add_argument('--max_start_epoch', type=int, default=5)
     parser.add_argument('--max_files', type=int, default=None)
     parser.add_argument('--max_experts', type=int, default=None)
     parser.add_argument('--expert_epochs', type=int, default=3, help='how many expert epochs the target params are')
