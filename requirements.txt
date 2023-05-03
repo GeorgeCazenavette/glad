@@ -1,0 +1,13 @@
+torch
+torchvision
+tqdm
+wandb
+numpy
+kornia
+ema-pytorch
+einops
+dill
+scipy
+timm
+ftfy
+regex
