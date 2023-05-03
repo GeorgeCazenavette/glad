@@ -1,6 +1,6 @@
 # GLaD 😊: Genenralizing Dataset Distillation via Deep Generative Prior
 
-### [Project Page](https://georgecazenavette.github.io/glad) | [Paper](https://georgecazenavette.github.io/glad)
+### [Project Page](https://georgecazenavette.github.io/glad) | [Paper](https://arxiv.org/abs/2305.01649)
 <br>
 
 ![grid](https://user-images.githubusercontent.com/18726777/235812493-5c5d4389-2208-409b-860a-9885db2a7592.png)
