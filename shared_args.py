@@ -32,7 +32,7 @@ def add_shared_args():
 
     parser.add_argument('--space', type=str, default='p', choices=['p', 'wp'])
     parser.add_argument('--res', type=int, default=128, choices=[128, 256, 512], help='resolution')
-    parser.add_argument('--layer', type=int, default=None)
+    parser.add_argument('--layer', type=int, default=12)
     parser.add_argument('--avg_w', action='store_true')
 
     parser.add_argument('--eval_all', action='store_true')
