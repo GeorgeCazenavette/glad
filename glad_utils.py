@@ -152,6 +152,8 @@ def eval_loop(latents=None, f_latents=None, label_syn=None, G=None, best_acc={},
 
     eval_pool_dict = get_eval_lrs(args)
 
+    save_this_it = False
+    
     for model_eval in model_eval_pool:
 
         if model_eval != args.model and args.wait_eval and it != args.Iteration:
