@@ -227,8 +227,8 @@ if __name__ == '__main__':
     parser.add_argument('--lr_g', type=float, default=0.0001, help='learning rate for gan weights')
 
     parser.add_argument('--lr_net', type=float, default=0.01, help='learning rate for updating network parameters')
-    parser.add_argument('--inner_loop', type=float, default=1, help='inner loop')
-    parser.add_argument('--outer_loop', type=float, default=1, help='outer loop')
+    parser.add_argument('--inner_loop', type=int, default=1, help='inner loop')
+    parser.add_argument('--outer_loop', type=int, default=1, help='outer loop')
     parser.add_argument('--dis_metric', type=str, default='ours', help='distance metric')
     args = parser.parse_args()
 
